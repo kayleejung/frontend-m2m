@@ -4,6 +4,9 @@
 - In the coming weeks, our designer will produce low-fi skethces, wireframe and prototype. We will iterate on their original designs.
 
 ## Frontend Development 
+- we will be following the MVC pattern, or model view controller pattern. 
+
+![mvc](/photos/mvc.png "mvc")
 
 UI/UX
 Wireframe vs. Prototype 
