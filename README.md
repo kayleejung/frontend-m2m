@@ -1,4 +1,6 @@
-# frontend-m2m
+# Frontend
+
+[General App Architecture](https://developer.android.com/jetpack/guide)
 
 ## User Research/Design Process 
 - In the coming weeks, our designer will produce low-fi skethces, wireframe and prototype. We will iterate on their original designs.
@@ -16,8 +18,7 @@
 - Send/receive sensor data to the cloud
 ### Networking
 - Sync local data with remote server
- 
-https://developer.android.com/jetpack/guide -> app architecture
+
 
 <!-- Mock
 Earbud/Complimentary testing app
