@@ -1,5 +1,10 @@
 # frontend-m2m
 
+## User Research/Design Process 
+- In the coming weeks, our designer will produce low-fi skethces, wireframe and prototype. We will iterate on their original designs.
+
+## Frontend Development 
+
 UI/UX
 Wireframe vs. Prototype 
 Wireframe
