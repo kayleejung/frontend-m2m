@@ -6,7 +6,7 @@
 ## Frontend Development 
 - we will be following the MVC pattern, or model view controller pattern. 
 
-![mvc](/photos/mvc.png "mvc")
+![mvc](/photos/mvc.jpg "mvc")
 
 UI/UX
 Wireframe vs. Prototype 
