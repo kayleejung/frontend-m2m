@@ -21,14 +21,51 @@ We will be following the [MVC pattern](https://en.wikipedia.org/wiki/Model%E2%80
 ## Model
 The model represents the data of the application and is independent of the user interface. It has **DIRECT** accesses to the data. The model deals with actions such as acssessing data from the database or changing the data in some way. So far, our model has these classes: 
 
-| Class | Attributes | Methods Associated |
-|---|---|---|
-| User | - personal data such as name 
-         - uid/token/credential | - `getData(),updateData()` 
-                                   -`login(), signUp(), logout()`| 
-|  | - uid/token/credential |`login(), signUp(), logout()`| 
-|   |   |   |  
-|   |   |   |  
+<table>
+	<tbody>
+		<tr>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td rowspan="2"></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td rowspan="2"></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td rowspan="2"></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td rowspan="2"></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td></td>
+		</tr>
+	</tbody>
+</table>
 
 ### User
 The user class represents a User that has attributes:
