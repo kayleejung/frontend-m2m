@@ -69,10 +69,13 @@ The model represents the data of the application and is independent of the user 
 
 ### More info on each class
 #### User
+This class is mainly going to be used for authenticating the user into the app.
 
 #### Game
+Since we will be creating many games, we will be extending our games to this super class. The super Game class will be generic enough to represent all games but specific enough to still be a class of its own. 
 
 #### Sensor
+This class will be dealing with the therapy glove's data. Right now we don't have much information on the therapy glove so don't worry about this class until we have more information.
 
 #### Networking
 This class will deal with connecting to the server or backend, mainly dealing with data processing. Networking could also fit into controller but we will leave it in model for now. 
