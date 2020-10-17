@@ -31,34 +31,34 @@ The model represents the data of the application and is independent of the user 
 		<tr>
 			<td rowspan="2">User</td>
 			<td>personal data such as name</td>
-			<td>```getUserData(), updateUserData()```</td>
+			<td>getUserData(), updateUserData()</td>
+		</tr>
+		<tr>
+			<td>uid/token/credential</td>
+			<td>login(), logout(), signUp()</td>
+		</tr>
+		<tr>
+			<td rowspan="2">Game</td>
+			<td>score</td>
+			<td>getScore(), generateScore()</td>
+		</tr>
+		<tr>
+			<td>data</td>
+			<td>updateData(), getData()</td>
+		</tr>
+		<tr>
+			<td rowspan="2">Sensor</td>
+			<td>data</td>
+			<td>updateData(), getData()</td>
 		</tr>
 		<tr>
 			<td></td>
 			<td></td>
 		</tr>
 		<tr>
-			<td rowspan="2"></td>
-			<td></td>
-			<td></td>
-		</tr>
-		<tr>
-			<td></td>
-			<td></td>
-		</tr>
-		<tr>
-			<td rowspan="2"></td>
-			<td></td>
-			<td></td>
-		</tr>
-		<tr>
-			<td></td>
-			<td></td>
-		</tr>
-		<tr>
-			<td rowspan="2"></td>
-			<td></td>
-			<td></td>
+			<td rowspan="2">Networking</td>
+			<td>data</td>
+			<td>updateData(), syncData()</td>
 		</tr>
 		<tr>
 			<td></td>
@@ -66,18 +66,6 @@ The model represents the data of the application and is independent of the user 
 		</tr>
 	</tbody>
 </table>
-
-### User
-The user class represents a User that has attributes:
-- personal data such as name  
-- uid/token 
-- Register, Login, Retrieve/Send user data to the cloud
-### Game
-- Flappy Bird: Record User scores and send to the cloud
-### Sensor 
-- Send/receive sensor data to the cloud
-### Networking
-- Sync local data with remote server
 
 ## View 
 This can simply be thought of as what the user sees, or the user interface. All this component does is display information. There should be almost no logic in dealing with data processing or manipulation 
