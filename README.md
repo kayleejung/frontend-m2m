@@ -86,8 +86,8 @@ This can simply be thought of as what the user sees, or the user interface. All 
 When the user interacts with the user interface, the controller either directs these actions to the view or the model. For instance, if the user is playing a game and clicks on a button, the user data will be sent to the model and the change in the appearance of the button will be sent to the view. 
 
 ## Code Styles 
-- Add the [Dokka](https://github.com/Kotlin/dokka) plugin before you start writing docstrings. 
-- If you want to read the official documentation on code styles for Kotlin, click [here](https://kotlinlang.org/docs/reference/kotlin-doc.html).
+- If you want to read the official documentation on code style for Kotlin, click [here](https://kotlinlang.org/docs/reference/kotlin-doc.html).
+- use tags whenever possibile!
 
 ### Class
 - for each class, make a new file 
