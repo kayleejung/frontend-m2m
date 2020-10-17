@@ -24,14 +24,14 @@ The model represents the data of the application and is independent of the user 
 <table>
 	<tbody>
 		<tr>
-			<td></td>
-			<td></td>
-			<td></td>
+			<td>Class</td>
+			<td>Attributes</td>
+			<td>Associated Methods</td>
 		</tr>
 		<tr>
-			<td rowspan="2"></td>
-			<td></td>
-			<td></td>
+			<td rowspan="2">User</td>
+			<td>personal data such as name</td>
+			<td>`getUserData(), updateUserData()`</td>
 		</tr>
 		<tr>
 			<td></td>
