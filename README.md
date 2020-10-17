@@ -31,7 +31,7 @@ The model represents the data of the application and is independent of the user 
 		<tr>
 			<td rowspan="2">User</td>
 			<td>personal data such as name</td>
-			<td>`getUserData(), updateUserData()`</td>
+			<td>```getUserData(), updateUserData()```</td>
 		</tr>
 		<tr>
 			<td></td>
