@@ -1,6 +1,8 @@
 # Frontend
+If you have no already, please read the [docs](https://github.com/UBC-BEST/m2m-docs) first then come back here! 
 - [General App Architecture](https://developer.android.com/jetpack/guide)
 - [Setting up Unity](https://medium.com/@razvan_57516/how-to-embed-unity-3d-in-a-native-android-app-5d030673bbf4)
+- [PLEASE READ: Getting started with Kotlin MMP](https://kotlinlang.org/docs/mobile/create-first-app.html)
 
 ## User Research/Design Process 
 [Wireframes and Prototypes](https://www.justinmind.com/blog/whats-the-difference-between-wireframes-and-prototypes/#:~:text=To%20break%20it%20down%2C%20website,more%20visual%20detail%20and%20interaction.&text=Read%20on%20for%20more%20on,web%20or%20mobile%20design%20process.)
@@ -24,6 +26,8 @@
 - Add the [Dokka](https://github.com/Kotlin/dokka) plugin before you start writing docstrings. 
 - If you want to read the official documentation, click [here](https://kotlinlang.org/docs/reference/kotlin-doc.html).
 ### Class
+- for each class, make a new file 
+- at the tope of the file, make a comment about what the class represents
 
 ### Method 
 
