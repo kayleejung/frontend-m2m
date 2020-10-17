@@ -19,11 +19,13 @@ We will be following the [MVC pattern](https://en.wikipedia.org/wiki/Model%E2%80
 - This way our code is not prone to dependencies and is able to adopt to changes quickly and robustly. 
 
 ## Model
-The model represents the data of the application and is independent of the user interface. It has **DIRECT** accesses to the data. Stuff that happens in the model includes acssessing data from the database or changing the data in some way. So far, our model has these classes: 
+The model represents the data of the application and is independent of the user interface. It has **DIRECT** accesses to the data. The model deals with actions such as acssessing data from the database or changing the data in some way. So far, our model has these classes: 
 
 | Class | Attributes | Methods Associated |
 |---|---|---|
-| User | - personal data such as name  - uid/token/credential |`getData(),updateData()` `login(), signUp(), logout()`| 
+| User | - personal data such as name 
+         - uid/token/credential | - `getData(),updateData()` 
+                                   -`login(), signUp(), logout()`| 
 |  | - uid/token/credential |`login(), signUp(), logout()`| 
 |   |   |   |  
 |   |   |   |  
