@@ -67,20 +67,51 @@ The model represents the data of the application and is independent of the user 
 	</tbody>
 </table>
 
+### More info on each class
+#### User
+
+#### Game
+
+#### Sensor
+
+#### Networking
+This class will deal with connecting to the server or backend, mainly dealing with data processing. Networking could also fit into controller but we will leave it in model for now. 
+
+These are not our finalized classes or methods. You may be wondering why these classes are super vague. We want to be able to take advantage of inheritance and by making our classes vague enough so that we can extend other classses, we can reduce the amount of code we need to write. 
+
 ## View 
-This can simply be thought of as what the user sees, or the user interface. All this component does is display information. There should be almost no logic in dealing with data processing or manipulation 
+This can simply be thought of as what the user sees, or the user interface. All this component does is display information. There should be almost no logic in dealing with data processing or manipulation. Our screens will be the views. 
 
 ## Controller 
 When the user interacts with the user interface, the controller either directs these actions to the view or the model. For instance, if the user is playing a game and clicks on a button, the user data will be sent to the model and the change in the appearance of the button will be sent to the view. 
 
 ## Code Styles 
 - Add the [Dokka](https://github.com/Kotlin/dokka) plugin before you start writing docstrings. 
-- If you want to read the official documentation, click [here](https://kotlinlang.org/docs/reference/kotlin-doc.html).
+- If you want to read the official documentation on code styles for Kotlin, click [here](https://kotlinlang.org/docs/reference/kotlin-doc.html).
+
 ### Class
 - for each class, make a new file 
-- at the top of the file, make a comment about what the class represents
+- at the top of the file, make a comment about what the class represents. An example looks like 
+` /**
+ * A group of *members*.
+ *
+ * This class has no useful logic; it's just a documentation example.
+ *
+ * @param T the type of a member in this group.
+ * @property name the name of this group.
+ * @constructor Creates an empty group.
+ */
+ `
 
 ### Method 
-
-## Start coding! 
-When coding please follow style guides and make meaningful comments. 
+For a method, your comment should have three distinct parts:
+- MODIFIES: what object being mutated or is anything being mutated at all?
+- EFFECTS: what is this method doing? Is it returning anything? 
+- REQUIRES: are there any restraints on the parameters?
+Usually you can combine ***MODIFIES** and **EFFECTS** into one sentence and if your method's parameters don't have any constraints then don't add obvious information. 
+`
+    /**
+     * Adds a [member] to this group.
+     * @return the new size of the group.
+     */
+     `
