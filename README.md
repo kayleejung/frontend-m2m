@@ -104,7 +104,7 @@ When the user interacts with the user interface, the controller either directs t
  `
 
 ### Method 
-For a method, your comment should have three distinct parts:
+For a method, your comment should focus on these three things:
 - MODIFIES: what object being mutated or is anything being mutated at all?
 - EFFECTS: what is this method doing? Is it returning anything? 
 - REQUIRES: are there any restraints on the parameters?
