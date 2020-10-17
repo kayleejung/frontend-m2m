@@ -92,7 +92,8 @@ When the user interacts with the user interface, the controller either directs t
 ### Class
 - for each class, make a new file 
 - at the top of the file, make a comment about what the class represents. An example looks like 
-` /**
+```
+ /**
  * A group of *members*.
  *
  * This class has no useful logic; it's just a documentation example.
@@ -101,7 +102,7 @@ When the user interacts with the user interface, the controller either directs t
  * @property name the name of this group.
  * @constructor Creates an empty group.
  */
- `
+ ```
 
 ### Method 
 For a method, your comment should focus on these three things:
@@ -109,9 +110,9 @@ For a method, your comment should focus on these three things:
 - EFFECTS: what is this method doing? Is it returning anything? 
 - REQUIRES: are there any restraints on the parameters?
 Usually you can combine ***MODIFIES** and **EFFECTS** into one sentence and if your method's parameters don't have any constraints then don't add obvious information. 
-`
+```
     /**
      * Adds a [member] to this group.
      * @return the new size of the group.
      */
-     `
+     ```
