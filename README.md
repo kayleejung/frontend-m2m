@@ -9,8 +9,8 @@ If you have not already, please read the [docs](https://github.com/UBC-BEST/m2m-
 - In the coming weeks, our designer will produce low-fi skethces, wireframe and prototype. We will iterate on their original designs.
 
 ## Frontend Development and Architecture 
-We will be following the [MVC pattern](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller), or Model-view-Controller pattern. 
 ![mvc](/photos/mvc.png "mvc")
+We will be following the [MVC pattern](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller), or Model-view-Controller pattern. 
 
 ### Why use Model-view-Controller?
 - This design pattern divides business logic into 3 interconnected elements. 
