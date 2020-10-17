@@ -24,6 +24,7 @@ The model represents the data of the application and is independent of the user 
 | Class | Attributes | Methods Associated |
 |---|---|---|
 | User | - personal data such as name |`getData(),updateData()`| 
+|  | - uid/token/credential |`login(), signUp(), logout()`| 
 |   |   |   |  
 |   |   |   |  
 
