@@ -1,4 +1,4 @@
-# Frontend
+# Frontend and Mobile
 If you have no already, please read the [docs](https://github.com/UBC-BEST/m2m-docs) first then come back here! 
 - [General App Architecture](https://developer.android.com/jetpack/guide)
 - [Setting up Unity](https://medium.com/@razvan_57516/how-to-embed-unity-3d-in-a-native-android-app-5d030673bbf4)
@@ -9,10 +9,17 @@ If you have no already, please read the [docs](https://github.com/UBC-BEST/m2m-d
 - In the coming weeks, our designer will produce low-fi skethces, wireframe and prototype. We will iterate on their original designs.
 
 ## Frontend Development - more to be added
-- we will be following the [MVC pattern](https://medium.com/@joespinelli_6190/mvc-model-view-controller-ef878e2fd6f5), or model view controller pattern. 
-![mvc](/photos/mvc.jpg "mvc")
+We will be following the [MVC pattern](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller), or model view controller pattern. 
+![mvc](/photos/mvc.png "mvc")
 
-## Modules 
+### Why use Model-view-Controller?
+- This design pattern divides business logic into 3 interconnected elements. 
+- This limits the user from seeing the internal structure of the application and it also seperates components from each other in that when we make a change in one part of the code we don't have to go chasing for errors in other portions. 
+- When executed correctly, if we were is make a change in the model, we would not have to make changes in the view or the controller. 
+- This way our code is not prone to dependencies and is able to adopt to changes quickly and robustly. 
+
+## Model
+The model represents the data of the application and is independent of the user interface. It has DIRECT accesses to the data. Stuff that happens in the model includes acssessing data from the database or changing the data in some way. 
 ### User
 - Register, Login, Retrieve/Send user data to the cloud
 ### Game
@@ -22,12 +29,18 @@ If you have no already, please read the [docs](https://github.com/UBC-BEST/m2m-d
 ### Networking
 - Sync local data with remote server
 
+## View 
+This can simply be thought of as what the user sees, or the user interface. All this component does is display information. There should be almost no logic in dealing with data processing or manipulation 
+
+## Controller 
+When the user interacts with the user interface, the controller either directs these actions to the view or the model. For instance, if the user is playing a game and clicks on a button, the user data will be sent to the model and the change in the appearance of the button will be sent to the view. 
+
 ## Code Styles 
 - Add the [Dokka](https://github.com/Kotlin/dokka) plugin before you start writing docstrings. 
 - If you want to read the official documentation, click [here](https://kotlinlang.org/docs/reference/kotlin-doc.html).
 ### Class
 - for each class, make a new file 
-- at the tope of the file, make a comment about what the class represents
+- at the top of the file, make a comment about what the class represents
 
 ### Method 
 
