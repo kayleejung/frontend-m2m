@@ -8,7 +8,7 @@ If you have not already, please read the [docs](https://github.com/UBC-BEST/m2m-
 [Wireframes and Prototypes](https://www.justinmind.com/blog/whats-the-difference-between-wireframes-and-prototypes/#:~:text=To%20break%20it%20down%2C%20website,more%20visual%20detail%20and%20interaction.&text=Read%20on%20for%20more%20on,web%20or%20mobile%20design%20process.)
 - In the coming weeks, our designer will produce low-fi skethces, wireframe and prototype. We will iterate on their original designs.
 
-## Frontend Development
+## Frontend Development and Architecture 
 We will be following the [MVC pattern](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller), or Model-view-Controller pattern. 
 ![mvc](/photos/mvc.png "mvc")
 
