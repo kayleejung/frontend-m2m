@@ -1,5 +1,5 @@
 # Frontend and Mobile
-[![Andriod Actions Status](https://github.com/UBC-BEST/frontend-m2m/workflows/Android CI/badge.svg)](https://github.com/UBC-BEST/frontend-m2m/actions)
+[![Andriod Actions Status](https://github.com/UBC-BEST/frontend-m2m/workflows/Android%20CI/badge.svg)](https://github.com/UBC-BEST/frontend-m2m/actions)
 
 If you have not already, please read the [docs](https://github.com/UBC-BEST/m2m-docs) first then come back here! 
 - [General App Architecture](https://developer.android.com/jetpack/guide)
